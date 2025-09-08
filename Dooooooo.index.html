@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>D3R — الروابط الرسمية</title>
+  <link rel="icon" href="https://i.postimg.cc/NjSZf2vk/file-00000000eff462308ed6756e745ca739.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#001F3F;
+      --bg2:#003F7F;
+      --accent:#00CFFD;
+      --text:#E6F7FF;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Cairo',sans-serif;
+      background:linear-gradient(180deg,var(--bg1) 0%,var(--bg2) 100%);
+      color:var(--text);
+      display:flex;align-items:center;justify-content:center;
+      min-height:100vh;padding:20px;
+    }
+    .container{
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(12px);
+      border-radius:24px;
+      box-shadow:0 8px 32px rgba(0,0,0,0.6);
+      padding:32px;max-width:760px;width:100%;
+      position:relative;overflow:hidden;
+    }
+    header{display:flex;align-items:center;gap:16px;z-index:1;position:relative}
+    header img{width:88px;height:88px;border-radius:20px;border:2px solid var(--accent)}
+    header h1{font-size:24px;font-weight:900;color:var(--accent)}
+    header p{font-size:14px;opacity:0.85}
+    .links{margin-top:28px;display:grid;gap:16px;z-index:1;position:relative}
+    .link{
+      display:flex;align-items:center;gap:14px;
+      padding:16px 18px;border-radius:14px;
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.1);
+      text-decoration:none;color:var(--text);
+      font-weight:600;transition:.25s ease;
+    }
+    .link:hover{transform:translateY(-6px) scale(1.02);background:rgba(0,207,253,0.1);box-shadow:0 10px 30px rgba(0,0,0,0.5)}
+    .icon{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;background:rgba(255,255,255,0.08);flex-shrink:0}
+    footer{text-align:center;margin-top:28px;font-size:13px;opacity:0.7;z-index:1;position:relative}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://i.postimg.cc/NjSZf2vk/file-00000000eff462308ed6756e745ca739.png" alt="شعار D3R">
+      <div>
+        <h1>D3R — القناة الرسمية</h1>
+        <p>كل روابط قناتي ومجتمعي في مكان واحد</p>
+      </div>
+    </header>
+
+    <div class="links">
+      <a class="link" href="https://youtube.com/@d3r_rt?si=OYELqhbPPQWtFQxJ" target="_blank">
+        <div class="icon">▶</div> YouTube
+      </a>
+      <a class="link" href="https://www.tiktok.com/@d3r_rt?_t=ZS-8zYV8OtglyZ&_r=1" target="_blank">
+        <div class="icon">🎵</div> TikTok — D3R
+      </a>
+      <a class="link" href="https://discord.gg/Frf7Vcj5" target="_blank">
+        <div class="icon">💬</div> D3R COMMUNITY — Discord
+      </a>
+      <a class="link" href="https://x.com/D3R_1RT?t=Sy72XXp2JNeIy3SPWc6DAw&s=09" target="_blank">
+        <div class="icon">✖</div> Twitter / X
+      </a>
+      <a class="link" href="https://www.snapchat.com/add/d3r_1rt?share_id=GSZMvm6MlHE&locale=ar-DZ-u-nu-latn" target="_blank">
+        <div class="icon">👻</div> Snapchat
+      </a>
+      <a class="link" href="https://t.me/+rxN6redgNdpiMjFk" target="_blank">
+        <div class="icon">📲</div> Group Telegram
+      </a>
+      <a class="link" href="https://www.instagram.com/d3r.rt1?igsh=bXR4YXp1eGtlemlk" target="_blank">
+        <div class="icon">📸</div> Instagram
+      </a>
+      <a class="link" href="https://www.tiktok.com/@50v101?_t=ZS-8zYWknfK1e4&_r=1" target="_blank">
+        <div class="icon">🎥</div> قناة الدو — TikTok
+      </a>
+    </div>
+
+    <footer>
+      © 2025 D3R — كل الحقوق محفوظة
+    </footer>
+  </div>
+</body>
+</html>
